@@ -7,15 +7,20 @@
   <div class="gameboy-cont">
   <input class="btn-on" type="button" value="Start"/>
   <input class="btn-off btn-hide" type="button" value="Stop"/>
-  <input class="btn-select" type="button" value="Resume"/>
-  <!-- <input class="btn-A" type="button" value="btn-A"/> -->
+
+  <input class="btn-select" type="button" value="Resume" onclick="window.open(this.href,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;" />
+
+  <input class="contact" type="button" value="contact" onclick="window.open(this.href,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;" />
+
   <audio src="nintendo.mp3"></audio>
   <div class="gameboy">
     
     <div class="screen-cont">
 
-      <div class="power"></div><div class="screen">
-        <input class="aboutme" type="button" value="About Me"/>
+      <div class="power"></div>
+      <div class="screen">
+        <input class="aboutme" type="button" value="About Me" onclick="window.open(this.href,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;" />
+
         <div class="header">DOT MATRIX WITH STEREO SOUND</div>
         <div class="animated-text">Nintendo<div class="copy">®</div>
       </div>
@@ -26,7 +31,7 @@
       <div class="vertical"></div>
       <div class="horizontal"></div>
     </div>
-    <button class="btn-AB"></button>
+    <button class="btn-AB" onclick="window.open(this.href,'popUpWindow','height=400,width=600,left=10,top=10,,scrollbars=yes,menubar=no'); return false;" /></button>
       <div class="btn-A-text"> Projects </div>
     </div>
   </div>
@@ -34,10 +39,5 @@
   <div class="btn-select"></div>
 </div>
 <div class="speakers"></div>
-<!-- <button class="btn-r">R</button> -->
-
-<button className="phone"> Contact Me </button>
-  </div>
-</div>
   <script src="main.js"></script>
 </body>

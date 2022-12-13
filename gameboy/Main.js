@@ -63,9 +63,10 @@ const App = {
       power.classList.remove( 'power-on' );
 
       // Text
-      text.classList.remove( 'end' );
+      text.classList.remove('end');
+      
+  
     };
-
   }
 };
 

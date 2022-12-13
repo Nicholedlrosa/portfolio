@@ -17,7 +17,7 @@ background: url(background.jpg) no-repeat center center fixed;
 -o-background-size: cover;
 background-size: cover;
 height: 100%;
-overflow: hidden;
+/* overflow: hidden; */
 }
 
 input.btn-on,
@@ -30,14 +30,12 @@ input.btn-off {
   font-family: sans-serif;
   text-align: center;
   border-radius: 30px;
-  /* border-color: #4e4c43; */
   transform: rotate(-27deg);
   background: #76777b;
   color: white;
   text-transform: uppercase;
   box-shadow: outset;
   z-index: 1;
-  /* background: transparent; */
 }
 
 .btn-select {
@@ -113,7 +111,7 @@ max-height: 80%;
   background: #bdae58;
   width: 225px;
   height: 205px;
-  box-shadow: inset 3px 3px rgba(0,0,0,0.15);
+  box-shadow: inset 3px 3px rgba(8, 7, 7, 0.991);
 }
 .gameboy .screen-cont .screen .header {
   position: relative;
@@ -125,7 +123,7 @@ max-height: 80%;
   text-align: right;
   font-size: 10px;
   font-family: sans-serif;
-  color: #b3b3b3;
+  color: #f8f3f3;
 }
 .gameboy .screen-cont .screen .header:before {
   content: "";
@@ -287,7 +285,6 @@ max-height: 80%;
   text-transform: uppercase;
 }
 
-
 .gameboy .controls-cont .btn-AB:after {
   content: "";
   position: fixed;
@@ -313,61 +310,23 @@ max-height: 80%;
   border-radius: 10px;
   transform: rotate(-25deg);
   box-shadow: 57px 27px #999, 0 0 0 5px #dfdfdf, 57px 27px 0 5px #dfdfdf;
- 
+ z-index: 1;
 }
 
+/* Isn't working */
 .gameboy .speakers {
   content: "";
   position: absolute;
   height: 70px;
   width: 8px;
-  top: 200px;
-  left: 300px;
-  background: #76777b;
+  /* top: 10px; */
+  /* left: 300px; */
+  /* background: #1236c8; */
   border-radius: 4px;
   transform: rotate(-25deg);
   box-shadow: 20px 0 #76777b, 40px 0 #76777b, 60px 0 #76777b, 80px 0 #76777b, 100px 0 #76777b;
+  z-index: 1;
 }
-
-.phone {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  padding: 3px 5px;
-  transform: translateX(-50%);
-  color: #f7f8fc;
-  background-color: #76777b;
-  font-size: 8px;
-  font-family: sans-serif;
-  text-transform: uppercase;
-  border-radius: 30px;
-  appearance: none;
-}
-
-.phone:before {
-  content: "";
-  position: absolute;
-  width: 15px;
-  height: 5px;
-  bottom: -4px;
-  /* background-color: #0c0b02; */
-  left: 9px;
-}
-.phone:after {
-  content: "";
-  position: absolute;
-  width: 3px;
-  height: 5px;
-  bottom: -4px;
-  left: 12px;
-  background-color: #76777b;
-  box-shadow: 5px 0 #ddd;
-  border-radius: 4px 4px 0 0;
-}
-
-/* .element.style {
-  display: block;
-} */
 
 .aboutme {
   position: absolute;
@@ -381,6 +340,22 @@ max-height: 80%;
   text-transform: uppercase;
   border-radius: 30px;
   z-index: 1
+}
+
+.contact {
+  position: absolute;
+  bottom: -65%;
+  left: 40%;
+  padding: 3px 5px;
+  transform: translateX(-50%);
+  color: #f7f8fc;
+  background-color: #76777b;
+  font-size: 10px;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  border-radius: 30px;
+  appearance: none;
+  z-index: 1;
 }
 
 .button {
