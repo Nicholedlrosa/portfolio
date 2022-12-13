@@ -1,12 +1,21 @@
 <head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gameboy</title><meta charset="utf-8"/><meta name="description" content="Gameboy css only"/><link rel="stylesheet" href="main.css"/>
 </head>
 <body>
-  <input class="btn-on" type="button" value="Start"/><input class="btn-off btn-hide" type="button" value="Off"/>
-  <audio src="sound/gameboy-sound.mp3"></audio>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <div class="gameboy-cont">
+  <input class="btn-on" type="button" value="Start"/>
+  <input class="btn-off btn-hide" type="button" value="Stop"/>
+  <input class="btn-select" type="button" value="Resume"/>
+  <!-- <input class="btn-A" type="button" value="btn-A"/> -->
+  <audio src="nintendo.mp3"></audio>
   <div class="gameboy">
+    
     <div class="screen-cont">
+
       <div class="power"></div><div class="screen">
+        <input class="aboutme" type="button" value="About Me"/>
         <div class="header">DOT MATRIX WITH STEREO SOUND</div>
         <div class="animated-text">Nintendo<div class="copy">®</div>
       </div>
@@ -17,13 +26,18 @@
       <div class="vertical"></div>
       <div class="horizontal"></div>
     </div>
-      <div class="btn-A">Resume</div>
-      <div class="btn-B">Projects</div>
-      <div class="btn-start-select"></div>
+    <button class="btn-AB"></button>
+      <div class="btn-A-text"> Projects </div>
     </div>
-    <div class="speakers"></div>
-    <div class="on-off">< off-on ></div>
-    <div class="phones">phones</div>
   </div>
+  <div class="btn-start"></div>
+  <div class="btn-select"></div>
+</div>
+<div class="speakers"></div>
+<!-- <button class="btn-r">R</button> -->
+
+<button className="phone"> Contact Me </button>
+  </div>
+</div>
   <script src="main.js"></script>
 </body>

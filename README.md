@@ -27,3 +27,7 @@ If you are viewing this and wish to work on something together, contact me! I am
 1. The markdown references I used were from [W3 schools](https://www.w3schools.io/file/markdown-links/), from  [stack overflow](https://stackoverflow.com/questions/35465557/how-to-apply-color-on-text-in-markdown#:~:text=Markdown%20doesn't%20support%20color,*%20text.&text=As%20the%20original%2Fofficial%20syntax,for%20writing%20for%20the%20web.), and a guide on [simple syntax](https://www.markdownguide.org/basic-syntax/).
 
 2. The super cool gameboy was thanks to this [repository](https://github.com/topics/gameboy-css).
+
+3. Cool [retro anime](https://www.pxfuel.com/en/desktop-wallpaper-obkke) background.
+
+4. [This](https://css-tricks.com/perfect-full-page-background-image/) CSS reference was great in helping me override the default stylesheet for the background.
