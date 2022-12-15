@@ -65,7 +65,8 @@ const App = {
       // Text
       text.classList.remove('end');
       
-  
+      // cursor
+      // document.body.style.cursor = * cursor - url *;
     };
   }
 };

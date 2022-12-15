@@ -10,7 +10,7 @@
   font-style: normal;
 }
 
-body {
+:root {
 background: url(background.jpg) no-repeat center center fixed; 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -314,19 +314,19 @@ max-height: 80%;
 }
 
 /* Isn't working */
-.gameboy .speakers {
+/* .gameboy .speakers {
   content: "";
   position: absolute;
   height: 70px;
   width: 8px;
   /* top: 10px; */
   /* left: 300px; */
-  /* background: #1236c8; */
+  /* background: #1236c8; 
   border-radius: 4px;
   transform: rotate(-25deg);
   box-shadow: 20px 0 #76777b, 40px 0 #76777b, 60px 0 #76777b, 80px 0 #76777b, 100px 0 #76777b;
   z-index: 1;
-}
+} */
 
 .aboutme {
   position: absolute;
@@ -344,7 +344,7 @@ max-height: 80%;
 
 .contact {
   position: absolute;
-  bottom: -65%;
+  bottom: -15%;
   left: 40%;
   padding: 3px 5px;
   transform: translateX(-50%);
@@ -358,6 +358,8 @@ max-height: 80%;
   z-index: 1;
 }
 
-.button {
-  display: block;
-};
+/*.footer{
+   transform: rotate(-90deg); 
+  z-index: 1;
+}*/
+
