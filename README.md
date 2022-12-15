@@ -28,6 +28,4 @@ If you are viewing this and wish to work on something together, contact me! I am
 
 2. The super cool gameboy was thanks to this [repository](https://github.com/topics/gameboy-css).
 
-3. Cool [retro anime](https://www.pxfuel.com/en/desktop-wallpaper-obkke) background.
-
-4. [This](https://css-tricks.com/perfect-full-page-background-image/) CSS reference was great in helping me override the default stylesheet for the background.
+3. [This](https://css-tricks.com/perfect-full-page-background-image/) CSS reference was great in helping me override the default stylesheet for the background.
